@@ -71,6 +71,8 @@ export async function POST(req: Request) {
 
     return new Response('OK')
   } catch (error) {
+    console.log('Error occured for route /api/friends/add', error);
+    
     if (error instanceof z.ZodError) {
       return new Response('Invalid request payload', { status: 422 })
     }
