@@ -27,7 +27,7 @@ const Page: FC = () => {
           <img
             src="/favicon.ico"
             alt="NextTalk Logo"
-            className="w-10 h-10 mb-2"
+            className="w-11 h-11 mb-2"
           />
           <h1 className="text-4xl font-bold text-gray-800">NextTalk</h1>
           <p className="text-gray-600 text-center mt-2">
